@@ -59,14 +59,6 @@ static void MX_TIM2_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
-
-void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
-{
-	if(htim->Instance == htim1.Instance)
-	{
-		
-	}
-}
 void delay_us(uint16_t us)
 {  
 	htim2.Instance->CNT = 0; 
