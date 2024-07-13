@@ -99,8 +99,6 @@ void btn_callback(GPIO_TypeDef *GPIOx , uint16_t GPIO_Pin)
 			led_status = LED_LIGHT;
 			break;
 			
-			break;
-			
 			default:
 			break;
 		}
